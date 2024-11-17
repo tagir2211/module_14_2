@@ -54,7 +54,7 @@ print(summ)
 cursor.execute("SELECT AVG(balance) FROM Users")
 avg = cursor.fetchone()[0]
 print(avg)
-avg1 = summ/total
+avg1 = summ / total
 print(avg == avg1)
 
 
